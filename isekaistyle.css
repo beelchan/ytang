@@ -1,0 +1,44 @@
+.form-header{
+    border: 15px dotted black;
+  padding: 15px;
+  background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;    
+background-clip: padding-box;
+background: white;
+background-position: center;
+text-transform: uppercase;
+}
+body{
+    background: url(black.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form{
+    text-align: center;
+    font font-family:"Times New Roman", Times,serif;
+  color: white;
+ border: 20px dotted white;
+  padding: 20px;
+  background: black;
+  background-clip: padding-box;
+position: absolute;
+  left: 500px;
+  top: 500px;
+  right: 500px;
+  text-transform: uppercase;
+}
+input[type=button],
+input[type=submit]
+{
+  border: groove;
+  width: 100px;
+  color:#000000;
+  font-size: 10px;
+padding: 5px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+ line-height: 10px;
+}
